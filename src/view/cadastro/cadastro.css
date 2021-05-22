@@ -1,0 +1,29 @@
+.login-content{
+    width: 100%;
+    padding: 15%;
+    margin: auto;
+    background-color: #614E5A;
+    height:100vh;
+}
+
+.btn-login{
+    background-color: lightgray;
+    transition: .3 ease-in
+}
+
+.btn-login:hover{
+    background-color: lightpink;
+    color: white;
+    transition: .3 ease-in
+}
+
+.option-login a{
+    text-decoration: none;
+    color: #fff;
+    transition: .3 ease-in;
+}
+
+.option-login a:hover{
+    text-decoration: none;
+    color: pink;
+}

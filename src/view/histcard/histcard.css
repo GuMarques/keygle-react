@@ -1,0 +1,51 @@
+.rodape-card{
+    color:lightpink;
+
+}
+
+.btn-detalhes{
+    background-color: lightskyblue;
+    color: white;
+}
+
+.btn-detalhes:hover{
+    background-color: lightpink;
+    color: black;
+}
+
+.btn-del{
+    background-color: rgb(179, 46, 46);
+    color: lightgray;
+    margin-top: 10px;
+}
+
+.btn-del:hover{
+    background-color: rgb(112, 24, 24);
+    color: white;
+}
+
+.btn-fav{
+    background-color: rgb(255, 255, 0);
+    color: black;
+    margin-top: 10px;
+}
+
+.btn-fav:hover{
+    background-color: rgb(167, 167, 25);
+    color: white;
+}
+
+.card-text{
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.img-cartao{
+    max-height: 200px;
+    min-width: 100%;
+}
+
+.reposit{
+    margin-left: 5%;
+    margin-top: 2.5%;
+}
