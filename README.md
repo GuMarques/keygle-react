@@ -8,7 +8,7 @@ The following sites are available:
 - Nuuvem(https://www.nuuvem.com)
 - Eneba(https://www.eneba.com)
 
-You can create your own account to store your searches and favorite it!
+You can create your own account to store your searches and favorite it
 
 To open it, go to directory folder and run:
 
