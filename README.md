@@ -16,3 +16,5 @@ To open it, go to directory folder and run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+To see the deployed website, visit https://projeto-a015f.web.app/
