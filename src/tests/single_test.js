@@ -9,7 +9,7 @@ async function test(){
     let driver = await new Builder().forBrowser("chrome").build();
 
      //To fetch http://google.com from the browser with our code.
-     await driver.get("https://localhost:3000");
+     await driver.get("http://localhost:3000");
          
      //To send a search query by passing the value in searchString.
      await driver.findElement(By.className("form-control")).sendKeys(searchString);
