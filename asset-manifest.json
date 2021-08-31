@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/keygle-react/static/css/main.717b70a9.chunk.css",
-    "main.js": "/keygle-react/static/js/main.41d99b08.chunk.js",
-    "main.js.map": "/keygle-react/static/js/main.41d99b08.chunk.js.map",
+    "main.js": "/keygle-react/static/js/main.edfb4d88.chunk.js",
+    "main.js.map": "/keygle-react/static/js/main.edfb4d88.chunk.js.map",
     "runtime-main.js": "/keygle-react/static/js/runtime-main.722722c9.js",
     "runtime-main.js.map": "/keygle-react/static/js/runtime-main.722722c9.js.map",
     "static/js/2.103eae98.chunk.js": "/keygle-react/static/js/2.103eae98.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.722722c9.js",
     "static/js/2.103eae98.chunk.js",
     "static/css/main.717b70a9.chunk.css",
-    "static/js/main.41d99b08.chunk.js"
+    "static/js/main.edfb4d88.chunk.js"
   ]
 }
