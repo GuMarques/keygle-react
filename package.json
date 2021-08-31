@@ -2,7 +2,7 @@
   "name": "projeto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gumarques.github.io/",
+  "homepage": "https://gumarques.github.io/keygle-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -29,10 +29,7 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
