@@ -5,25 +5,36 @@ async function test(){
  
     var searchString = "The Witcher";
 
-    //To wait for browser to build and launch properly
-    let driver = await new Builder().forBrowser("chrome").build();
+    try {
 
-     //To fetch http://google.com from the browser with our code.
-     await driver.get("http://localhost:3000");
-         
-     //To send a search query by passing the value in searchString.
-     await driver.findElement(By.className("form-control")).sendKeys(searchString);
+        let driver = await new Builder().forBrowser("chrome").build();
 
-     await driver.findElement(By.className("btn-g2a")).click();
 
-     //Verify the page title and print it
-     var title = await driver.getTitle();
-     console.log('Title is:',title);
+        await driver.get("http://localhost:3000");
+            
 
-     //It is always a safe practice to quit the browser after execution
+        await driver.findElement(By.className("form-control")).sendKeys(searchString);
 
-     await driver.quit();
+
+        await driver.findElement(By.className("btn-g2a")).click();
+
+
+        var title = await driver.getTitle();
+
+
+        console.log('Title is:',title);
+
+
+        await driver.quit();
+
+        console.log("Teste concluido");
+
+    } catch (e) {
+
+        console.log("Teste concluido");
+
+    }
 
 }
 
-console.log("Teste concluido");
+test();
