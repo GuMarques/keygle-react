@@ -19,7 +19,7 @@ function App() {
         <Route exact path='/login' component={Login}/>
         <Route exact path='/lostpassword' component={LostPassword}/>
         
-        <Route exact path='/' component={Home}/>
+        <Route exact path='/keygle-react' component={Home}/>
 
         <Route path='/favoritos/:parametro' component={Favoritos}/>
         <Route path='/historico/:parametro' component={Historico}/>
