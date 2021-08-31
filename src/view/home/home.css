@@ -1,3 +1,7 @@
+body {
+    background-color: #d3d3d3;
+}
+
 .center {
     display: block;
     margin-left: auto;
