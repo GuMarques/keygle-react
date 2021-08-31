@@ -21,8 +21,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: nanasess/setup-chromedriver@master
-    - run: chromedriver --url-base=/wd/hub &
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
