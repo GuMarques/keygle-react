@@ -15,15 +15,15 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Route exact path='/cadastro' component={Cadastro}/>
-        <Route exact path='/login' component={Login}/>
-        <Route exact path='/lostpassword' component={LostPassword}/>
+        <Route exact path='/keygle-react/cadastro' component={Cadastro}/>
+        <Route exact path='/keygle-react/login' component={Login}/>
+        <Route exact path='/keygle-react/lostpassword' component={LostPassword}/>
         
         <Route exact path='/keygle-react' component={Home}/>
 
-        <Route path='/favoritos/:parametro' component={Favoritos}/>
-        <Route path='/historico/:parametro' component={Historico}/>
-        <Route exact path='/sobre' component={Sobre}/>
+        <Route path='/keygle-react/favoritos/:parametro' component={Favoritos}/>
+        <Route path='/keygle-react/historico/:parametro' component={Historico}/>
+        <Route exact path='/keygle-react/sobre' component={Sobre}/>
       </Router>
     </Provider>
   );
