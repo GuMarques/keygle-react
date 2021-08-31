@@ -22,10 +22,8 @@ async function test(){
 
      //It is always a safe practice to quit the browser after execution
 
-     console.log("Teste concluido");
-
      await driver.quit();
 
 }
 
-test()
+console.log("Teste concluido");
