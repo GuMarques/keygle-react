@@ -22,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "node ./src/tests/single_test.js",
+    "test": "node ./src/tests/single_test.js --disable-gpu --headless --no-sandbox",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
