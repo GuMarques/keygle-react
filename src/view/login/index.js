@@ -50,11 +50,11 @@ function Login(){
                                             <input onChange={(e)=> setSenha(e.target.value)} type="password" className="form-control" name="password" placeholder="Password"/>
                                         </div>
                                     </form>
-                                    <Link to="/lostpassword" className="">Esqueci minha senha!</Link>
+                                    <Link to="/keygle-react/lostpassword" className="">Esqueci minha senha!</Link>
                                 </div>
                             </div>
                             <div className="modal-footer">
-                            <Link to='/cadastro' className="">
+                            <Link to='/keygle-react/cadastro' className="">
                                 <button type="button" id ="iniciaCadastro" className="btn btn-login pull-left" data-dismiss="modal">Cadastrar</button>
                             </Link>
                             <button onClick={autenticar} type="button" id ="entrar" className="btn btn-login" data-dismiss="modal">Entrar</button>

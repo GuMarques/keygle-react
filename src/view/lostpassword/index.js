@@ -36,7 +36,7 @@ function LostPassword(){
                         </div>
                         <div className="modal-footer">
                             <button onClick={recuperarSenha} type="button" className="btn btn-login pull-center">Recuperar</button>
-                            <Link to='/login'><button type="button" id ="cancelarCadastro" className="btn btn-login pull-left" data-dismiss="modal">Cancelar</button></Link>
+                            <Link to='/keygle-react/login'><button type="button" id ="cancelarCadastro" className="btn btn-login pull-left" data-dismiss="modal">Cancelar</button></Link>
                         </div>
                     </div>      
                 </div>

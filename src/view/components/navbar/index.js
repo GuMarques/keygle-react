@@ -8,23 +8,23 @@ function Navbar(){
     const dispatch = useDispatch();
     return(
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <Link to='/' className="navbar-brand text-white mx-2 bold mx-3" href="#">Keygle</Link>
+        <Link to='/keygle-react/' className="navbar-brand text-white mx-2 bold mx-3" href="#">Keygle</Link>
 
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav mr-auto col-12">
             {
               useSelector(state => state.usuarioLogado) > 0 ?
               <>
-                <li className="nav-item active order"><Link to='/historico/meu'>Historico</Link></li>
-                <li className="nav-item active order"><Link to='/favoritos/meu'>Favoritos</Link></li>
-                <li className="nav-item active order active"><Link to='/sobre'>Sobre</Link></li>
-                <li className="nav-item active order"><Link to='/' onClick={() => dispatch({type: 'LOGOUT'})}>Sair</Link></li>
+                <li className="nav-item active order"><Link to='/keygle-react/historico/meu'>Historico</Link></li>
+                <li className="nav-item active order"><Link to='/keygle-react/favoritos/meu'>Favoritos</Link></li>
+                <li className="nav-item active order active"><Link to='/keygle-react/sobre'>Sobre</Link></li>
+                <li className="nav-item active order"><Link to='/keygle-react/' onClick={() => dispatch({type: 'LOGOUT'})}>Sair</Link></li>
               </>
               :
               <>
-                <li className="nav-item active order"><Link to='/cadastro'>Cadastro</Link></li>
-                <li className="nav-item active order"><Link to='/login'>Login</Link></li>
-                <li className="nav-item active order"><Link to='/sobre'>Sobre</Link></li>
+                <li className="nav-item active order"><Link to='/keygle-react/cadastro'>Cadastro</Link></li>
+                <li className="nav-item active order"><Link to='/keygle-react/login'>Login</Link></li>
+                <li className="nav-item active order"><Link to='/keygle-react/sobre'>Sobre</Link></li>
               </>
             }
              </ul>

@@ -42,7 +42,7 @@ function Cadastro(){
                         </div>
                         <div className="modal-footer">
                             <button onClick={cadastrar} type="button" id ="cadastro" className="btn btn-login pull-center" data-dismiss="modal">Cadastrar</button>
-                            <Link to='/login'><button type="button" id ="cancelarCadastro" className="btn btn-login pull-left" data-dismiss="modal">Cancelar</button></Link>
+                            <Link to='/keygle-react/login'><button type="button" id ="cancelarCadastro" className="btn btn-login pull-left" data-dismiss="modal">Cancelar</button></Link>
                         </div>
                     </div>      
                 </div>
