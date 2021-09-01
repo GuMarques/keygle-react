@@ -16,3 +16,4 @@ To open it, go to directory folder and run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The published version can be find at: https://gumarques.github.io/keygle-react/
